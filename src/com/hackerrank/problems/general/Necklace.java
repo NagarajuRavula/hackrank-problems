@@ -6,11 +6,11 @@ public class Necklace {
 
 	private static int b,g,r,y,necklaceLength = 0;
 	private static boolean isFirstTurn = true;
-	private static String lastColor = null;
+	private static String lastColor = "";
 	
 	public static void main(String args[]) {	
 		Scanner sc = new Scanner(System.in);
-		b = sc.nextInt();
+		b = sc.nextInt(); 
 		r = sc.nextInt();
 	    y = sc.nextInt();
 		g = sc.nextInt();
